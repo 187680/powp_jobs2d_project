@@ -20,6 +20,7 @@ public class TestJobs2dPatterns {
 	 *
 	 * @param application Application context.
 	 */
+
 	private static void setupPresetTests(Application application) {
 		SelectTestFigureOptionListener selectTestFigureOptionListener = new SelectTestFigureOptionListener(
 				DriverFeature.getDriverManager());

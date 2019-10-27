@@ -5,7 +5,6 @@ import java.awt.event.ActionEvent;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
 import edu.kis.powp.appbase.Application;
 import edu.kis.powp.jobs2d.drivers.adapter.MyAdapter;
 import edu.kis.powp.jobs2d.events.SelectTestFigureOptionListener;

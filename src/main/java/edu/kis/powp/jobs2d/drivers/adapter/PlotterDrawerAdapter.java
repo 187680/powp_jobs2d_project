@@ -8,11 +8,11 @@ import edu.kis.powp.jobs2d.Job2dDriver;
 /**
  * driver adapter to drawer with several bugs.
  */
-public class MyAdapter implements Job2dDriver {
+public class PlotterDrawerAdapter implements Job2dDriver {
 	private int startX = 0, startY = 0;
 	private DrawPanelController drawPanelController;
 
-	public MyAdapter(DrawPanelController drawPanelController) {
+	public PlotterDrawerAdapter(DrawPanelController drawPanelController) {
 		this.drawPanelController = drawPanelController;
 	}
 
@@ -34,6 +34,6 @@ public class MyAdapter implements Job2dDriver {
 
 	@Override
 	public String toString() {
-		return "@Q!$!@$!#@$(*#@&Q(%^*#@";
+		return "Buggy Simulator running...";
 	}
 }
